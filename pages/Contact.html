@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="../Style/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Reenie+Beanie&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <article class="head">
+      <h1>Samith Photography</h1> 
+      <div class="navbar">
+        <a href="../index.html">Home</a>
+        <div class="dropdown">
+        <button class="dropbtn">Projects
+            <i class="arrow down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="./Recycle-Ling.html">Recycle-Ling</a>
+            <a href="./Portrait.html">Portraits</a>
+            <a href="./Nature.html">Nature</a>
+        </div>
+        </div>
+        <a href="./pages/Contact.html">Contact Us</a>
+      </div>
+    </article>
+
+    <div class="contactus">
+      <h2>WE ARE HERE</h2>
+      <p>We are based in Edinburgh</p>
+    </div>
+
+    <div class="contactmap">
+      <img class="map" src="./map.png" style="width:50%">
+    </div>
+
+
+    <div class="form">
+      <form action="/action_page.php">
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="fullname" placeholder="Your full name..">
+    
+        <label for="email">E-mail</label>
+        <input type="text" id="email" name="emailadd" placeholder="Your e-mail address..">
+    
+        <label for="enquiry">Enquiry</label>
+        <select id="enquiry" name="enquiry">
+          <option value="Family">Family photography</option>
+          <option value="Product">Product photography</option>
+          <option value="Couple">Couple photography</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea type="text", id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+
+
+        <div class="formrow">
+         <button type="button" id="submit" class="submitbtn">Submit</button>
+        </div>
+        
+        <div>
+          <p id="demo"></p>
+        </div>
+      
+      </form>
+    </div>
+
+    
+
+  </main>
+  <footer>Samith copyright 2020</footer>
+  <script src="./form.js"></script>
+</body>
+
+</html>
