@@ -182,23 +182,23 @@ p {
   
 }
 .bgimg-1 {
-    background-image: url("/Users/faithchung/Documents/samithphotography.github.io/Vocan.jpg");
+    background-image: url("../Vocan.jpg");
     min-height: 500px;
 } 
 .bgimg-2 {
-    background-image: url("/Users/faithchung/Documents/samithphotography.github.io/Maple.JPG");
+    background-image: url("../Maple.JPG");
     min-height: 400px;
 }
 .bgimg-3 {
-    background-image: url("/Users/faithchung/Documents/samithphotography.github.io/Iona.jpg");
+    background-image: url("../Iona.jpg");
     min-height: 400px;
 }
 .bgimg-4 {
-    background-image: url("/Users/faithchung/Documents/samithphotography.github.io/TY.jpg");
+    background-image: url("../TY.jpg");
     min-height: 500px;
 }
 .fabric{
-    background-image: url("/Users/faithchung/Documents/samithphotography.github.io/pages/fabric.jpg");
+    background-image: url("../pages/fabric.jpg");
     min-height: 250px;
 }
 
